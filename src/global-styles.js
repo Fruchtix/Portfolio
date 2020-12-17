@@ -1,10 +1,10 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
     body {
         height: 100%;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        background-color: #181818;
+        background-color: #1D1D1D;
         color: #FFFFFF;
         font-size: 16px;
     }
