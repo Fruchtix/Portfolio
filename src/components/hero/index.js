@@ -13,7 +13,7 @@ export default function Hero() {
                     <ContactLink href="mailto:jan@fuechtener.eu">Let's Talk</ContactLink>
                 </ContactBtn>
             </TextArea>
-            {/* <Tag bottom>&nbsp;&nbsp;&nbsp;{`</body>`}<br/>{`</html>`}</Tag> */}
+            <Tag bottom>&nbsp;&nbsp;&nbsp;{`</body>`}<br/>{`</html>`}</Tag>
         </Container>
     )
 }
