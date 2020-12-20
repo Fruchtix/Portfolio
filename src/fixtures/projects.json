@@ -1,9 +1,9 @@
 [
     {
         "id": 0,
-        "name": "Project 1",
+        "name": "Art Shop",
         "description": "A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.",
-        "technologys": ["Node.js", "Node.js", "Node.js"],
+        "technologys": ["React.js", "Firebase", "Fuse.js"],
         "direction": "row",
         "githubLink": "",
         "projectLink": "",
@@ -11,22 +11,22 @@
     },
     {
         "id": 1,
-        "name": "",
-        "description": "",
-        "technologys": [""],
+        "name": "Breakup",
+        "description": "Hast du Liebeskummer, bist verzweifelt und fühlst dich innerlich einfach schlecht? Willst du deine alte Beziehung endlich hinter dir lassen und ein neues Leben beginnen?",
+        "technologys": ["React.js", "Firebase", "Fuse.js"],
         "direction": "row-reverse",
         "githubLink": "",
         "projectLink": "",
-        "imageUrl": ""
+        "imageUrl": "https://play-lh.googleusercontent.com/0ek6ekahA4McNBrRxJf5NOrpMxMQIx384QLigzAR25wjTPC8UVxrdBx3CW10ik4K3ok=s360-rw"
     },
     {
         "id": 2,
-        "name": "",
-        "description": "",
-        "technologys": [""],
+        "name": "EyeYoga",
+        "description": "EyeYoga begleitet dich täglich bei deinem Augentraining und hilft dir dabei deine Augenmuskulatur zu stärken. Wir unterstützen dich bei Kurzsichtigkeit, Weitsichtigkeit, Augentrockenheit und vielem mehr. Mit nur wenigen Minuten am Tag kannst du deine Augen trainieren und ihnen etwas gutes tun.",
+        "technologys": ["React.js", "Firebase", "Fuse.js"],
         "direction": "row",
         "githubLink": "",
         "projectLink": "",
-        "imageUrl": ""
+        "imageUrl": "https://play-lh.googleusercontent.com/2N5WsxrDl2COSUjOYvRft0yfSj84pNvohjisG5z8FePehqXQY04Rv9OT71OHlt60Q6I=s360-rw"
     }
 ]

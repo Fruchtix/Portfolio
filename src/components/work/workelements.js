@@ -12,7 +12,9 @@ export const Container = styled.div`
     margin: auto;
 `
 
-export const Headline = styled.div``
+export const Headline = styled.div`
+    font-size: 28px;
+`
 
 export const Line = styled.div`
     background-color: #515152;
@@ -27,12 +29,14 @@ export const HeadlineWrapper = styled.div`
     align-items: center;
 `
 
-export const ProjectsWrapper = styled.div``
+export const ProjectsWrapper = styled.div`
+    margin: 50px 0px 10vh 0px;
+`
 
 export const Project = styled.div`
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    margin-top: 75px; 
+    margin-bottom: 125px; 
 `
 
 export const ProjectImage = styled.img`
@@ -51,6 +55,7 @@ export const ProjectInfo = styled.div`
 
 export const ProjectName = styled.div`
     margin-bottom: 20px;
+    font-size: 24px;
 `
 
 export const ProjectDesc = styled.div`
@@ -62,13 +67,13 @@ export const ProjectDesc = styled.div`
 
 export const TechnologyWrapper = styled.ul`
     display: flex;
-    justify-content: flex-end;
+    justify-content: ${({direction}) => direction === "row-reverse" ? "flex-start" : "flex-end"};
     list-style: none;
     margin-top: 25px;
 `
 
 export const Technology = styled.li`
-    margin: 0px 0px 0px 20px;
+    margin: ${({direction}) => direction === "row-reverse" ? "0px 20px 0px 0px" : "0px 0px 0px 20px"};
     color: ${props => props.theme.colors.fourthColor};
 `
 
@@ -92,7 +97,8 @@ export const GithubLink = styled(GithubOutline)`
 
 export const ProjectType = styled.div`
     margin: 20px 0px 10px 0px;
-    color: ${props => props.theme.colors.thirdColor}
+    color: ${props => props.theme.colors.thirdColor};
+    font-size: 16px;
 `
 
 export const Link = styled.a``

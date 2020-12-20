@@ -18,9 +18,9 @@ export default function Work() {
                                 <ProjectType>Featured Project</ProjectType>
                                 <ProjectName>{project.name}</ProjectName>
                                 <ProjectDesc>{project.description}</ProjectDesc>
-                                <TechnologyWrapper>
+                                <TechnologyWrapper direction={project.direction}>
                                     {project.technologys.map(technology => (
-                                        <Technology>{technology}</Technology>
+                                        <Technology direction={project.direction}>{technology}</Technology>
                                     ))}
                                 </TechnologyWrapper>
                                 <ProjectLinks>

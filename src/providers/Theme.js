@@ -10,8 +10,8 @@ const theme = {
         background: "#1D1D1D",
     },
     fonts: {
-        primaryFont: "",
-        secondaryFont: ""
+        primaryFont: "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        secondaryFont: "",
     }
 }
 
