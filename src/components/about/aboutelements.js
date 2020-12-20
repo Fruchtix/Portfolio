@@ -5,7 +5,7 @@ export const Container = styled.div`
     grid-template-columns: 3fr 2fr;
     gap: 50px;
     padding: 0px 10vw;
-    height: 80vh;
+    min-height: 80vh;
 `
 
 export const Wrapper = styled.div`
