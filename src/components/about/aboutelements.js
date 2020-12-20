@@ -5,8 +5,7 @@ export const Container = styled.div`
     grid-template-columns: 3fr 2fr;
     gap: 50px;
     padding: 0px 12vw;
-    min-height: 80vh;
-    margin: auto;
+    margin: 10vh auto 10vh auto;
     max-width: 1100px;
 `
 
@@ -17,6 +16,7 @@ export const Wrapper = styled.div`
 `
 
 export const Headline = styled.div`
+    font-size: 28px;
 `
 
 export const Description = styled.div`

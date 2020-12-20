@@ -21,6 +21,7 @@ export const Line = styled.div`
     height: 1px;
     flex: 1;
     margin-left: 20px;
+    margin-right: 30%;
 `
 
 export const HeadlineWrapper = styled.div`
