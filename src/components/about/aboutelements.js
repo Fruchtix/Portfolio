@@ -4,8 +4,10 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 50px;
-    padding: 0px 10vw;
+    padding: 0px 12vw;
     min-height: 80vh;
+    margin: auto;
+    max-width: 1100px;
 `
 
 export const Wrapper = styled.div`

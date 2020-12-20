@@ -8,7 +8,6 @@ export const Container = styled.div`
 
 export const Headline = styled.h1`
     font-size: 50px;
-    /* font-family: Poppinnns; */
     font-weight: 600;
 
     &:before {
@@ -34,7 +33,7 @@ export const Headline = styled.h1`
 `
 
 export const SubHeadline = styled.h2`
-    color: #8d8d8d;
+    color: ${props => props.theme.colors.fourthColor};
     margin-top: 20px;
     font-weight: normal;
     font-size: 11px;
@@ -62,9 +61,13 @@ export const ContactBtn = styled.div`
 
 export const ContactLink = styled.a`
     text-decoration: none;
-    color: #E2786C;
+    color: ${props => props.theme.colors.thirdColor};
     padding: 15px 27px;
-    border: 1px solid #E2786C;
+    border: 1px solid ${props => props.theme.colors.thirdColor};
     border-radius: 2px;
     font-size: 14px;
+`
+
+export const Highlight = styled.span`
+    /* color: ${props => props.theme.colors.thirdColor}; */
 `

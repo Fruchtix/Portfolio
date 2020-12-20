@@ -5,8 +5,13 @@ const theme = {
     colors: {
         primaryColor: "#fff",
         secondaryColor: "#515152",
+        thirdColor: "#E2786C",
+        fourthColor: "#8d8d8d",
         background: "#1D1D1D",
-
+    },
+    fonts: {
+        primaryFont: "",
+        secondaryFont: ""
     }
 }
 

@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 import { GithubOutline } from '@styled-icons/evaicons-outline/GithubOutline'
 import { LinkExternal } from '@styled-icons/boxicons-regular/LinkExternal'
-import Theme from '../../providers/Theme'
 
 export const Container = styled.div`
-    padding: 0px 10vw;
+    padding: 0px 12vw;
     min-height: 80vh;
+    max-width: 1100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 `
 
 export const Headline = styled.div``
@@ -27,8 +31,7 @@ export const ProjectsWrapper = styled.div``
 
 export const Project = styled.div`
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    min-height: 35vh;
+    grid-template-columns: repeat(12, 1fr);
     margin-top: 75px; 
 `
 
@@ -37,48 +40,59 @@ export const ProjectImage = styled.img`
     height: 100%;
     object-fit: cover;
     grid-row: 1;
-    grid-column: 1 / 6; 
+    grid-column: ${({direction}) => direction === "row-reverse" ? "6 / 12" : "1 / 7"};
 `
 
 export const ProjectInfo = styled.div`
-    grid-column: 5 / 9;
+    grid-column: ${({direction}) => direction === "row-reverse" ? "1 / 7" : "6 / 12"};
     grid-row: 1;
-    text-align: right;
+    text-align: ${({direction}) => direction === "row-reverse" ? "left" : "right"};
 `
 
-export const ProjectName = styled.div``
+export const ProjectName = styled.div`
+    margin-bottom: 20px;
+`
 
 export const ProjectDesc = styled.div`
     background-color: ${props => props.theme.colors.secondaryColor};
     padding: 20px;
     z-index: 99;
+    line-height: 22px;
 `
 
 export const TechnologyWrapper = styled.ul`
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    margin-top: 25px;
 `
 
 export const Technology = styled.li`
     margin: 0px 0px 0px 20px;
+    color: ${props => props.theme.colors.fourthColor};
 `
 
 export const ProjectLink = styled(LinkExternal)`
     width: 30px;
-    color: #fff;
     height: 30px;
+    color: ${props => props.theme.colors.fourthColor};
 `
 
 export const ProjectLinks = styled.div`
+    margin-top: 25px;
+    margin-bottom: 20px;
 `
 
 export const GithubLink = styled(GithubOutline)`
     width: 30px;
     height: 30px;
-    color: #fff;
+    margin-right: 20px;
+    color: ${props => props.theme.colors.fourthColor};
 `
 
-export const ProjectType = styled.div``
+export const ProjectType = styled.div`
+    margin: 20px 0px 10px 0px;
+    color: ${props => props.theme.colors.thirdColor}
+`
 
 export const Link = styled.a``

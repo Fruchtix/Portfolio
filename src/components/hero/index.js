@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Tag, Headline, SubHeadline, ContactBtn, TextArea, ContactLink } from './heroelements'
+import { Container, Tag, Headline, SubHeadline, ContactBtn, Highlight, TextArea, ContactLink } from './heroelements'
 
 export default function Hero() {
     return (
         <Container>
             <Tag top>&nbsp;&nbsp;&nbsp;{`<body>`}</Tag>
             <TextArea>
-                <Headline>Hi,<br/>I'm Jan,<br/>web developer.</Headline>
+                <Headline>Hi,<br/>I'm <Highlight>J</Highlight>an,<br/>web developer.</Headline>
                 <SubHeadline>Front End Developer / React Expert</SubHeadline>
                 <br/>
                 <ContactBtn>
