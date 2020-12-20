@@ -2,8 +2,12 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     height: 100vh;
-    display: flex;
-    align-items: center;
+    display: grid;
+    /* margin: auto; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+
 `
 
 export const Headline = styled.h1`
@@ -29,6 +33,15 @@ export const Headline = styled.h1`
         position: absolute;
         margin-top: 38px;
         margin-left: 20px;
+    }
+`
+
+export const Wrapper = styled.div`
+    margin: auto;
+    width: 50vw;
+
+    @media screen and (max-width: 640px) {
+        width: 100vw
     }
 `
 
