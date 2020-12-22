@@ -1,13 +1,14 @@
 import React from 'react'
-import { Container, Headline, Information, ContactWrapper, ContactBtn } from './contactelements' 
+import { Container, Headline, Line, Information, ContactWrapper, ContactBtn } from './contactelements' 
 
 export default function Contact() {
     return (
         <Container id="contact">
             <Headline>Get In Touch</Headline>
-            <Information>Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</Information>
+            <Line />
+            <Information>I'm currently looking for new opportunities and challenges. Whether you have a question or just want to say hi, I'll try my best to get back to you!</Information>
             <ContactWrapper>
-                <ContactBtn>Let's Talk</ContactBtn>
+                <ContactBtn href="mailto:jan@fuechtener.eu">Let's Talk</ContactBtn>
             </ContactWrapper>
         </Container>
     )

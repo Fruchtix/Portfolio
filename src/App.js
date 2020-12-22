@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Home, Loading } from './pages'
+import { Home, Loading, Privacy } from './pages'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   const [loaded, setLoaded] = useState(true)
@@ -13,7 +14,17 @@ function App() {
   return (
     <>
       {loaded ? <Loading /> :
-      <Home />}
+      <Router>
+        <Switch>
+          <Route path="/impressum">
+            <Privacy />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+      }
     </>
   );
 }

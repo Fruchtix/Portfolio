@@ -7,6 +7,10 @@ export const Container = styled.div`
     grid-template-rows: 1fr;
     overflow: hidden;
     width: 100%;
+
+    @media (max-width: 768px) {
+        height: 95vh;
+    }
 `
 
 export const Headline = styled.h1`

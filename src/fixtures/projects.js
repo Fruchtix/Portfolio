@@ -1,4 +1,7 @@
-[
+import eyeyoga from '../assets/images/eyeyoga.png'
+import breakup from '../assets/images/breakup2.png'
+
+export const projects = [
     {
         "id": 0,
         "name": "Art Shop",
@@ -17,7 +20,7 @@
         "direction": "row-reverse",
         "githubLink": "",
         "projectLink": "",
-        "imageUrl": "https://play-lh.googleusercontent.com/0ek6ekahA4McNBrRxJf5NOrpMxMQIx384QLigzAR25wjTPC8UVxrdBx3CW10ik4K3ok=s360-rw"
+        "imageUrl": breakup
     },
     {
         "id": 2,
@@ -27,6 +30,6 @@
         "direction": "row",
         "githubLink": "",
         "projectLink": "",
-        "imageUrl": "https://play-lh.googleusercontent.com/2N5WsxrDl2COSUjOYvRft0yfSj84pNvohjisG5z8FePehqXQY04Rv9OT71OHlt60Q6I=s360-rw"
+        "imageUrl": eyeyoga
     }
 ]

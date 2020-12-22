@@ -18,7 +18,7 @@ export default function Navbar() {
             <NavWrapper open={open}>
                 <NavElement><NavLink onClick={handleMenuClick} activeClass="active" to="about" spy={true} smooth={true} duration={600}>About</NavLink></NavElement>
                 <NavElement><NavLink onClick={handleMenuClick} activeClass="active" to="projects" spy={true} smooth={true} duration={600}>Work</NavLink></NavElement>
-                <NavElement><NavLink onClick={handleMenuClick} activeClass="active" to="jobs" spy={true} smooth={true} duration={600}>Experience</NavLink></NavElement>
+                {/* <NavElement><NavLink onClick={handleMenuClick} activeClass="active" to="jobs" spy={true} smooth={true} duration={600}>Experience</NavLink></NavElement> */}
                 <NavElement><NavLink onClick={handleMenuClick} activeClass="active" to="contact" spy={true} smooth={true} duration={600}>Contact</NavLink></NavElement>
                 <NavElement>
                     <ResumeWrapper>

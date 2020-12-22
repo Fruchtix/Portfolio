@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import { Link } from 'react-scroll';
 
 export const Container = styled.div`
+    /* position: fixed; */
+    z-index: 1003;
 `
 
 export const NavWrapper = styled.ul`
@@ -21,7 +23,7 @@ export const NavWrapper = styled.ul`
         align-items: center;
         position: fixed;
         z-index: 1001;
-        background: #515152;
+        background: #2F2F2F;
         height: 100vh;
         width: 70vw;
         right: 0;
@@ -43,6 +45,10 @@ export const NavLink = styled(Link)`
     color: #fff;
     padding: 10px 15px;
     cursor: pointer;
+
+    &:hover {
+        color: ${({theme}) => theme.colors.thirdColor};
+    }
 `
 
 export const ResumeWrapper = styled.div``

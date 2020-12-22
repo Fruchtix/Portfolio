@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, HeadlineWrapper, Headline, Line, Link, ProjectsWrapper, Technology, ProjectType, Project, ProjectImage, ProjectInfo, ProjectName, ProjectDesc, TechnologyWrapper, ProjectLink, ProjectLinks, GithubLink } from './workelements'
-import projects from '../../fixtures/projects.json'
+import {projects} from '../../fixtures/projects'
 
 export default function Work() {
     return (
@@ -24,10 +24,10 @@ export default function Work() {
                                     ))}
                                 </TechnologyWrapper>
                                 <ProjectLinks>
-                                    <Link href={"www.google.de"} >
+                                    <Link href={project.githubLink} >
                                         <GithubLink />
                                     </Link>
-                                    <Link href={"www.google.de"}>
+                                    <Link href={project.projectLink}>
                                         <ProjectLink />
                                     </Link>
                                 </ProjectLinks>

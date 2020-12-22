@@ -8,6 +8,7 @@ export default function Home() {
             <Hero />
             <About />
             <Work />
+            {/* <Experience /> */}
             <Contact />
             <Footer />
         </>
