@@ -29,6 +29,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     animation: ${scale} 1s ease 1 1.25s;
+
+    @media (max-width: 786px) {
+      max-height: 80vh;
+    }
 `
 
 export const Spinner = styled.div`
