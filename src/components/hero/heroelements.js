@@ -3,11 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
     height: 100vh;
     display: grid;
-    /* margin: auto; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     overflow: hidden;
-
+    width: 100%;
 `
 
 export const Headline = styled.h1`
@@ -33,6 +32,14 @@ export const Headline = styled.h1`
         position: absolute;
         margin-top: 38px;
         margin-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 35px;
+
+        &:after {
+            margin-top: 14px;
+        }
     }
 `
 

@@ -4,9 +4,13 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 50px;
-    padding: 0px 12vw;
-    margin: 10vh auto 10vh auto;
+    padding: 10vh 12vw;
+    margin: auto;
     max-width: 1100px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
 `
 
 export const Wrapper = styled.div`

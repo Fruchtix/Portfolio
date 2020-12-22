@@ -4,7 +4,10 @@ import { Container } from './footerelements'
 export default function Footer() {
     return (
         <Container>
-            footer
+            <Copyright>© 2020 Jan Füchtener</Copyright>
+            <LegalInformation>
+
+            </LegalInformation>
         </Container>
     )
 }

@@ -3,7 +3,7 @@ import { Container, Wrapper, Headline, Description, IconContainer, Image, Line, 
 
 export default function About() {
     return (
-        <Container>
+        <Container id="about">
             <Wrapper>
                 <HeadlineWrapper>
                     <Headline>About me</Headline>

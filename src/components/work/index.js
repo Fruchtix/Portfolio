@@ -4,7 +4,7 @@ import projects from '../../fixtures/projects.json'
 
 export default function Work() {
     return (
-        <Container>
+        <Container id="projects">
             <HeadlineWrapper>
                 <Headline>Some Things I've Built</Headline>
                 <Line />
@@ -12,15 +12,15 @@ export default function Work() {
             <ProjectsWrapper>
                 {projects.map(project => {
                     return (
-                        <Project>
+                        <Project key={project.id}>
                             <ProjectImage direction={project.direction} src={project.imageUrl} />
                             <ProjectInfo direction={project.direction}>
                                 <ProjectType>Featured Project</ProjectType>
                                 <ProjectName>{project.name}</ProjectName>
                                 <ProjectDesc>{project.description}</ProjectDesc>
                                 <TechnologyWrapper direction={project.direction}>
-                                    {project.technologys.map(technology => (
-                                        <Technology direction={project.direction}>{technology}</Technology>
+                                    {project.technologys.map((technology, index) => (
+                                        <Technology key={index} direction={project.direction}>{technology}</Technology>
                                     ))}
                                 </TechnologyWrapper>
                                 <ProjectLinks>

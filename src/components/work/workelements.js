@@ -3,7 +3,7 @@ import { GithubOutline } from '@styled-icons/evaicons-outline/GithubOutline'
 import { LinkExternal } from '@styled-icons/boxicons-regular/LinkExternal'
 
 export const Container = styled.div`
-    padding: 0px 12vw;
+    padding: 10vh 12vw;
     min-height: 80vh;
     max-width: 1100px;
     text-align: center;

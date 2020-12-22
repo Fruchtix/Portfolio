@@ -12,7 +12,24 @@ const animate = keyframes`
   }
 `;
 
-export const Container = styled.div``
+const scale = keyframes`
+  from {
+    transform: scale(1,1);
+  }
+
+  to {
+    transform: scale(0,0);
+  }
+`;
+
+export const Container = styled.div`
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ${scale} 1s ease 1 1.25s;
+`
 
 export const Spinner = styled.div`
     position: relative;
