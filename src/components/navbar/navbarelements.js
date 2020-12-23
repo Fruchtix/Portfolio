@@ -45,9 +45,14 @@ export const NavLink = styled(Link)`
     color: #fff;
     padding: 10px 15px;
     cursor: pointer;
+    font-size: 18px;
 
     &:hover {
         color: ${({theme}) => theme.colors.thirdColor};
+    }
+
+    @media (max-width: 786px) {
+        font-size: 22px;
     }
 `
 
@@ -60,9 +65,13 @@ export const ResumeBtn = styled.a`
     padding: 9px 18px;
     border: 1px solid ${props => props.theme.colors.thirdColor};
     border-radius: 2px;
-    font-size: 14px;
+    font-size: 17px;
     margin-left: 12px;
     cursor: pointer;
+
+    @media (max-width: 786px) {
+        font-size: 20px;
+    }
 `
 
 export const HamburgerMenu = styled.div`
@@ -86,7 +95,6 @@ export const MenuLine = styled.div`
     width: 2rem; 
     height: 0.25rem;
     background-color: ${props => props.open ? props.theme.colors.thirdColor : '#fff'};;
-    /* margin: 5px; */
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

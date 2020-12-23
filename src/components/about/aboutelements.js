@@ -7,7 +7,7 @@ export const Container = styled.div`
     max-width: 1100px;
 
     @media (max-width: 768px) {
-        padding: 10vh 6vw;
+        padding: 5vh 6vw 10vh 6vw;
     }
 `
 export const AboutWrapper = styled.div`
@@ -30,12 +30,12 @@ export const Headline = styled.div`
     white-space: nowrap;
 
     @media (max-width: 768px) {
-        font-size: 20px;
+        font-size: 25px;
     }
 `
 
 export const Description = styled.div`
- 
+    line-height: 22px;
 `
 
 export const Line = styled.div`

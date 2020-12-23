@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Container, NavWrapper, NavElement, NavLink, MenuLine, ResumeWrapper, ResumeBtn, HamburgerMenu } from './navbarelements'
+import pdf from '../../assets/pdfs/Resume.pdf'
 
 export default function Navbar() {
     const [open, setOpen] = useState(false)
@@ -22,7 +23,7 @@ export default function Navbar() {
                 <NavElement><NavLink onClick={handleMenuClick} activeClass="active" to="contact" spy={true} smooth={true} duration={600}>Contact</NavLink></NavElement>
                 <NavElement>
                     <ResumeWrapper>
-                        <ResumeBtn>Resume</ResumeBtn>
+                        <ResumeBtn target="_blank" href={pdf}>Resume</ResumeBtn>
                     </ResumeWrapper>
                 </NavElement>
             </NavWrapper>

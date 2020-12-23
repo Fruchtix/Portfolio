@@ -1,10 +1,11 @@
 import React from 'react'
-import { Impressum } from '../components'
+import { Impressum, ScrollToTop } from '../components'
 
 export default function Privacy() {
 
     return (
         <>
+            <ScrollToTop />
             <Impressum />
         </>
     )

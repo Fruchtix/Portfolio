@@ -21,7 +21,7 @@ export const Headline = styled.div`
     white-space: nowrap;
 
     @media (max-width: 768px) {
-        font-size: 20px;
+        font-size: 25px;
     }
 `
 
