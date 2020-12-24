@@ -15,21 +15,21 @@ export const projects = [
     {
         "id": 1,
         "name": "Breakup",
-        "description": "Hast du Liebeskummer, bist verzweifelt und fühlst dich innerlich einfach schlecht? Willst du deine alte Beziehung endlich hinter dir lassen und ein neues Leben beginnen?",
+        "description": "This App helps people with their breakup and lovesickness. It guides you through a three week programm with audio lessons each day and additional information about relationships in general. Afterwards you will probably still be lovesick but you have the tools to overcome your heartbreak.",
         "technologys": ["React.js", "React Native", "Firebase"],
         "direction": "row-reverse",
-        "githubLink": "",
-        "projectLink": "",
+        "githubLink": "https://github.com/Fruchtix/EyeYoga",
+        "projectLink": "https://play.google.com/store/apps/details?id=com.fruchtiapps.breakup",
         "imageUrl": breakup
     },
     {
         "id": 2,
         "name": "EyeYoga",
-        "description": "EyeYoga begleitet dich täglich bei deinem Augentraining und hilft dir dabei deine Augenmuskulatur zu stärken. Wir unterstützen dich bei Kurzsichtigkeit, Weitsichtigkeit, Augentrockenheit und vielem mehr. Mit nur wenigen Minuten am Tag kannst du deine Augen trainieren und ihnen etwas gutes tun.",
+        "description": "This App gives people the opportunity to do yoga for their eyes. You can train the muscles in your eyes the same way as you train the rest of your body: by daily exercise and a good programm. Eyeyoga gives you the opportunity to improve your eyesight through a guided 30 day audio course and other exercises.",
         "technologys": ["React.js", "React Native", "Firebase"],
         "direction": "row",
-        "githubLink": "",
-        "projectLink": "",
+        "githubLink": "https://github.com/Fruchtix/EyeYoga",
+        "projectLink": "https://play.google.com/store/apps/details?id=com.fruchtiapps.eyeyoga",
         "imageUrl": eyeyoga
     }
 ]
