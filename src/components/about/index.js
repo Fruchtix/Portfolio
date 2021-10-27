@@ -41,8 +41,17 @@ export default function About() {
             <Link target="_blank" href="https://www.nexible.de/">
               nexible
             </Link>{" "}
-            where I worked on a wide variety of interesting and meaningful
+            where I accompanied a wide variety of interesting and meaningful
             projects on a daily basis.
+            <br />
+            <br />
+            Since the beginning of 2021 I've been working in the BSH Project, where I can contribute my knowledge to the{" "}
+            <Link target="_blank" href="https://www.bosch-home.com">
+              Bosch
+            </Link>{" "}and{" "}
+            <Link target="_blank" href="https://www.siemens-home.com">
+              Siemens
+            </Link>{" "}websites.
             <br />
             <br />
             Here are a few technologies I've been working with recently:

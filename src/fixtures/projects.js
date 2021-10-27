@@ -46,7 +46,6 @@ export const projects = [
       "I have worked several month for the BSH group and contributed to nearly all Frontend components that are in use on bosch-home.com, siemens-home.com, neff-home.com and many more BSH brands.",
     technologys: ["JavaScript", "HTML", "SCSS", "jQuery"],
     direction: "row-reverse",
-    githubLink: "https://github.com/Fruchtix/art-shop",
     projectLink: "https://bosch-home.com",
     imageUrl:
       "https://www.drugcos.de/media/image/c6/59/d3/160_ManufacturerqrkOaPhjxEz0X.jpg",
