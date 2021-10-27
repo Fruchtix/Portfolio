@@ -1,5 +1,5 @@
 import eyeyoga from "../assets/images/eyeyoga.png";
-import breakup from "../assets/images/breakup2.png";
+import breakup from "../assets/images/breakup_app.png";
 import suns from "../assets/images/1000SUNS.png";
 
 export const projects = [
@@ -7,10 +7,11 @@ export const projects = [
     id: 0,
     name: "Breakup",
     description:
-      "This App helps people with their breakup and lovesickness. It guides you through a three week programm with audio lessons each day and additional information about relationships in general. Afterwards you will probably still be lovesick but you have the tools to overcome your heartbreak.",
+      "This App helps people with their breakup and lovesickness. It guides you through a four week programm with audio lessons each day and additional information about relationships in general. Afterwards you will probably still be lovesick but you have the tools to overcome your heartbreak.",
     technologys: ["React.js", "React Native", "Firebase"],
     direction: "row",
-    githubLink: "https://github.com/Fruchtix/EyeYoga",
+    backgroundPosition: "top left",
+    githubLink: "https://github.com/Fruchtix/Breakup",
     projectLink:
       "https://play.google.com/store/apps/details?id=com.fruchtiapps.breakup",
     imageUrl: breakup,
@@ -40,14 +41,14 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Art Webshop [in progress]",
+    name: "BSH Project",
     description:
-      "This is going to be an art shop for local art. The idea is that artists can create a profile and can list their art for sale. Individuals can then check out the artists profile and can purchase artworks over the platform directly.",
-    technologys: ["JavaScript", "React.js", "Firebase"],
+      "I have worked several month for the BSH group and contributed to nearly all Frontend components that are in use on bosch-home.com, siemens-home.com, neff-home.com and many more BSH brands.",
+    technologys: ["JavaScript", "HTML", "SCSS", "jQuery"],
     direction: "row-reverse",
     githubLink: "https://github.com/Fruchtix/art-shop",
-    projectLink: "",
+    projectLink: "https://bosch-home.com",
     imageUrl:
-      "https://www.oxy.edu/sites/default/files/landing-page/banner-images/art-art-history_main_1440x800.jpg",
+      "https://www.drugcos.de/media/image/c6/59/d3/160_ManufacturerqrkOaPhjxEz0X.jpg",
   },
 ];

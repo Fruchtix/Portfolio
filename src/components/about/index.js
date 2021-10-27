@@ -24,7 +24,7 @@ export default function About() {
       <AboutWrapper>
         <Wrapper>
           <Description>
-            Hello! I'm Jan, a software engineer based in Cologne, Germany.
+            Hello! I'm Jan, a software engineer based in Wuppertal, Germany.
             <br />
             <br />
             I enjoy creating things that live on the internet, whether that be
@@ -58,7 +58,7 @@ export default function About() {
             <TechnologyWrapper>
               <Technology>React</Technology>
               <Technology>{`HTML & CSS`}</Technology>
-              <Technology>Wordpress</Technology>
+              <Technology>jQuery</Technology>
             </TechnologyWrapper>
           </IconContainer>
         </Wrapper>

@@ -34,6 +34,7 @@ export default function Work() {
               <ProjectImage
                 direction={project.direction}
                 src={project.imageUrl}
+                backgroundPosition={project.backgroundPosition}
               />
               <ProjectInfo direction={project.direction}>
                 <ProjectType>Featured Project</ProjectType>

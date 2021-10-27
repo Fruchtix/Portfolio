@@ -76,9 +76,8 @@ export const ProjectImage = styled.div`
     height: auto;
     /* object-fit: contain; */
     /* object-position: 0 0; */
-    filter: grayscale(0.8);
     background: url('${props => props.src}') no-repeat;
-    background-position: 0 0;
+    background-position: ${props => props.backgroundPosition || "center"};
     background-size: cover;
     grid-row: 1;
     z-index: -1;
